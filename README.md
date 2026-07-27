@@ -58,6 +58,8 @@ LabMate is a comprehensive digital assistant designed for biotechnology students
 2. Install dependencies:
    ```bash
    npm install
+3. Run the app
+   ```bash
    npm run dev
    ## 👨‍💻 Developer
 
