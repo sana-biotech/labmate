@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧪 LabMate — Smart Laboratory Protocol & Reagent Assistant
 
-## Getting Started
+LabMate is a comprehensive digital assistant designed for biotechnology students, researchers, and lab technicians. It streamlines laboratory workflows by providing instant buffer/reagent preparation calculations, unit conversions, and an interactive AI Assistant for real-time protocol guidance and troubleshooting.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Application
+- **Live Demo Link:** [https://willowy-vacherin-de7099.netlify.app](https://willowy-vacherin-de7099.netlify.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 The Problem & Solution
+- **The Problem:** In wet-lab environments, performing reagent molarity calculations manually and troubleshooting failed protocols (e.g., PCR errors, buffer pH adjustments) leads to human error, wasted reagents, and delayed research.
+- **The Solution:** **LabMate** unifies automated scientific calculators with an AI-driven lab expert in one simple dashboard, allowing researchers to quickly verify reagent amounts and resolve experimental issues on the fly.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Key Features
+- **Reagent & Buffer Calculators:** Instant calculation for molarity, mass, volume, and dilution factor setups ($C_1V_1 = C_2V_2$).
+- **LabMate AI Assistant:** Built-in intelligent chatbot tailored specifically for biological and chemistry laboratory guidance.
+- **Protocol Troubleshooting:** Instant suggestions for common lab experiment failures.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤖 AI Feature & Prompt Design
+- **AI Integration:** Powered by Google's Gemini AI API (`NEXT_PUBLIC_GEMINI_API_KEY`).
+- **Functionality:** Provides step-by-step experiment instructions, buffer recipe adjustments, and safety advice.
+- **System Instructions / Prompt Strategy:**
+  > *"You are LabMate AI, an expert molecular biology and biochemistry lab specialist. Provide clear, step-by-step protocol instructions, reagent preparation formulas, and troubleshooting steps for wet-lab experiments. Keep responses concise, scientifically accurate, and practical for immediate laboratory use."*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack & Tools
+- **Framework:** Next.js / React
+- **Styling:** Tailwind CSS
+- **Deployment:** Netlify
+- **AI Integration:** Gemini AI API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖼️ Application Screenshots
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f2e9b428-6ef3-4a7d-9a99-fdf1c692938c" />
+
+### 1. Main Dashboard & Reagent Calculators
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/172bedfa-fad7-4221-8e3a-d80b841c4d3e" />
+### 2. Buffer Recipes Calculator
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/afa4180b-7899-4ddd-b340-02ccdeb5381d" />
+### 3. AI Lab Assistant
+---<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1bbfb065-c3ba-4d28-9460-a8fe8613224b" />
+
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone <YOUR-GITHUB-REPO-LINK>
+   cd labmate
