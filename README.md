@@ -46,12 +46,25 @@ LabMate is a comprehensive digital assistant designed for biotechnology students
 ### 2. Buffer Recipes Calculator
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/afa4180b-7899-4ddd-b340-02ccdeb5381d" />
 ### 3. AI Lab Assistant
----<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1bbfb065-c3ba-4d28-9460-a8fe8613224b" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1bbfb065-c3ba-4d28-9460-a8fe8613224b" />
 
 
 ## 🚀 How to Run Locally
 
 1. **Clone the repository:**
    ```bash
-   git clone <YOUR-GITHUB-REPO-LINK>
+    git clone https://github.com/sana-biotech/labmate.git
    cd labmate
+2. Install dependencies:
+   ```bash
+   npm install
+   npm run dev
+   ## 👨‍💻 Developer
+
+**Name:** Sana Parveen  
+**Project:** LabMate  
+**Repository:** https://github.com/sana-biotech/labmate  
+
+## 📄 License
+
+This project was developed as an individual university project for educational purposes.
