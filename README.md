@@ -62,12 +62,12 @@ LabMate is a comprehensive digital assistant designed for biotechnology students
    ```bash
    npm run dev
    
-   👨‍💻 Developer
-   
-**Name:** Sana Parveen  
-**Project:** LabMate  
-**Repository:** https://github.com/sana-biotech/labmate  
+  Developer
 
- 📄 License
+Name: Sana Parveen  
+Project: LabMate  
+Repository: https://github.com/sana-biotech/labmate  
+
+License
 
 This project was developed as an individual university project for educational purposes.
